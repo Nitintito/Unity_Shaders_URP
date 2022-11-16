@@ -1,5 +1,5 @@
 {
-    "m_SGVersion": 3,
+    "m_SGVersion": 2,
     "m_Type": "UnityEditor.ShaderGraph.GraphData",
     "m_ObjectId": "5fe493741e404251b0708e8c78ea4776",
     "m_Properties": [
@@ -8,12 +8,6 @@
         }
     ],
     "m_Keywords": [],
-    "m_Dropdowns": [],
-    "m_CategoryData": [
-        {
-            "m_Id": "ad6b928ff6334731910c42d7ee114b86"
-        }
-    ],
     "m_Nodes": [
         {
             "m_Id": "ef79167389d941a7a2652853bd7f2039"
@@ -134,11 +128,10 @@
         "serializedMesh": {
             "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
             "m_Guid": ""
-        },
-        "preventRotation": false
+        }
     },
     "m_Path": "Sub Graphs",
-    "m_GraphPrecision": 1,
+    "m_ConcretePrecision": 0,
     "m_PreviewMode": 2,
     "m_OutputNode": {
         "m_Id": "ef79167389d941a7a2652853bd7f2039"
@@ -181,10 +174,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 95.99996185302735,
-            "y": -63.00001525878906,
+            "x": 108.99996185302735,
+            "y": -22.999998092651368,
             "width": 208.0,
-            "height": 302.0000305175781
+            "height": 302.0
         }
     },
     "m_Slots": [
@@ -303,13 +296,9 @@
         "m_GuidSerialized": "d64dd569-389d-498b-a215-fd40dabcb4e4"
     },
     "m_Name": "WorldPosition",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "WorldPosition",
     "m_DefaultReferenceName": "_WorldPosition",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -334,10 +323,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -235.0000457763672,
-            "y": -111.00000762939453,
-            "width": 225.00003051757813,
-            "height": 350.0000305175781
+            "x": -235.0,
+            "y": -111.0,
+            "width": 226.0,
+            "height": 350.0
         }
     },
     "m_Slots": [
@@ -369,7 +358,7 @@
     },
     "m_SourceType": 0,
     "m_FunctionName": "MainLight",
-    "m_FunctionSource": "a5fb8b0f83d35704d90df65c19a1b594",
+    "m_FunctionSource": "206bc2931d2492d47af3f4d15a05f5ab",
     "m_FunctionBody": "Enter function body here..."
 }
 
